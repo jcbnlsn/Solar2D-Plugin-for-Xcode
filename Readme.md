@@ -14,5 +14,5 @@ This project aims at turning Xcode into a full-blown IDE for Corona SDK/Enterpri
 The "Corona Plugin for Xcode" is heavily improved and polished in all areas compared to what is in this Github repository.
 And lots of new features were added.
 
-You are welcome to continue using the code in this repository for your own personal use... but I highly recommend the 'Corona Plugin for Xcode' - it is about 10x cooler!
+You are welcome to continue using the code in this repository but I highly recommend the 'Corona Plugin for Xcode' - it is about 10x cooler!
 
