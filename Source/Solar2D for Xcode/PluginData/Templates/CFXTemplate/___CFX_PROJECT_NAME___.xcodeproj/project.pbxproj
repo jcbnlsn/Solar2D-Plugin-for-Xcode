@@ -1,0 +1,131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		___PBX_FILE_REFERENCES___
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4DA5FDF42082B2B50017F765 = {
+			isa = PBXGroup;
+			children = (
+				4DA5FDFC2082B2B50017F765 /* ___CFX_PROJECT_NAME___ */,
+				4DA5FDFB2082B2B50017F765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DA5FDFC2082B2B50017F765 /* ___CFX_PROJECT_NAME___ */ = {
+			isa = PBXGroup;
+			children = (
+				___PBX_GROUPS___
+				4DA5FE082082B2B60017F765 /* Supporting Files */,
+			);
+			path = ___CFX_PROJECT_NAME___;
+			sourceTree = "<group>";
+		};		
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DA5FDF92082B2B50017F765 /* ___CFX_PROJECT_NAME___ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA5FE122082B2B60017F765 /* Build configuration list for PBXNativeTarget "___CFX_PROJECT_NAME___" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ___CFX_PROJECT_NAME___;
+			productName = ___CFX_PROJECT_NAME___;
+			productReference = 4DA5FDFA2082B2B50017F765 /* ___CFX_PROJECT_NAME___ */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DA5FDF52082B2B50017F765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					4DA5FDF92082B2B50017F765 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 4DA5FDF82082B2B50017F765 /* Build configuration list for PBXProject "___CFX_PROJECT_NAME___" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DA5FDF42082B2B50017F765;
+			productRefGroup = 4DA5FDFB2082B2B50017F765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DA5FDF92082B2B50017F765 /* ___CFX_PROJECT_NAME___ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4DA5FE102082B2B60017F765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4DA5FE112082B2B60017F765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		4DA5FE132082B2B60017F765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DA5FE142082B2B60017F765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DA5FDF82082B2B50017F765 /* Build configuration list for PBXProject "___CFX_PROJECT_NAME___" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA5FE102082B2B60017F765 /* Debug */,
+				4DA5FE112082B2B60017F765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA5FE122082B2B60017F765 /* Build configuration list for PBXNativeTarget "___CFX_PROJECT_NAME___" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA5FE132082B2B60017F765 /* Debug */,
+				4DA5FE142082B2B60017F765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DA5FDF52082B2B50017F765 /* Project object */;
+}

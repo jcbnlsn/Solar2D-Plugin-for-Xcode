@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+        <key>IDECodeSnippetCompletionPrefix</key>
+        <string>for</string>
+        <key>IDECodeSnippetCompletionScopes</key>
+        <array>
+            <string>All</string>
+        </array>
+        <key>IDECodeSnippetContents</key>
+        <string>for &lt;#i#&gt;, &lt;#v#&gt; in ipairs(&lt;#table#&gt;) do
+	&lt;#...#&gt;
+end
+</string>
+        <key>IDECodeSnippetIdentifier</key>
+        <string>cfx.ipairs.for.loop</string>
+        <key>IDECodeSnippetLanguage</key>
+        <string>Xcode.SourceCodeLanguage.Corona</string>
+        <key>IDECodeSnippetSummary</key>
+        <string>Lua</string>
+        <key>IDECodeSnippetTitle</key>
+        <string>Lua: ipairs for loop</string>
+        <key>IDECodeSnippetUserSnippet</key>
+        <true/>
+        <key>IDECodeSnippetVersion</key>
+        <integer>2</integer>
+    </dict>
+</plist>
+    

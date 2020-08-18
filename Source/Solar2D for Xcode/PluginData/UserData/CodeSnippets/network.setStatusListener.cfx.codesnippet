@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+        <key>IDECodeSnippetCompletionPrefix</key>
+        <string>network.setStatusListener</string>
+        <key>IDECodeSnippetCompletionScopes</key>
+        <array>
+            <string>All</string>
+        </array>
+        <key>IDECodeSnippetContents</key>
+        <string>network.setStatusListener( &lt;#hostURL#&gt;, &lt;#listener#&gt; )</string>
+        <key>IDECodeSnippetIdentifier</key>
+        <string>cfx.network.setStatusListener</string>
+        <key>IDECodeSnippetLanguage</key>
+        <string>Xcode.SourceCodeLanguage.Corona</string>
+        <key>IDECodeSnippetSummary</key>
+        <string>Solar2D</string>
+        <key>IDECodeSnippetTitle</key><string>network.setStatusListener( hostURL, listener )</string>
+        <key>IDECodeSnippetUserSnippet</key>
+        <true/>
+        <key>IDECodeSnippetVersion</key>
+        <integer>2</integer>
+    </dict>
+</plist>
+    

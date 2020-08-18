@@ -1,0 +1,928 @@
+//  Solar2D.xclangspec
+//  For Solar2D Plugin for Xcode. Created by Jacob Nielsen (c) 2016-2020
+
+(
+
+/****************************************************************************/
+// MARK: Solar2D keywords
+/****************************************************************************/
+     {
+          Identifier = "xcode.lang.corona.identifier";
+          Syntax = {
+            StartChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_[";
+            Chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_?[]";
+               Words = (
+
+                    "assert",
+                    "collectgarbage",
+                    "dofile",
+                    "error",
+                    "getfenv",
+                    "getmetatable",
+                    "ipairs",
+                    "load",
+                    "loadfile",
+                    "loadstring",
+                    "module",
+                    "next",
+                    "pairs",
+                    "pcall",
+                    "print",
+                    "rawequal",
+                    "rawget",
+                    "rawset",
+                    "require",
+                    "select",
+                    "setfenv",
+                    "setmetatable",
+                    "tonumber",
+                    "tostring",
+                    "type",
+                    "unpack",
+                    "xpcall",
+
+                    "package",
+                    "package.loaded",
+                    "package.seeall",
+                    "package.loaders",
+
+                    "string",
+                    "string.byte",
+                    "string.char",
+                    "string.dump",
+                    "string.find",
+                    "string.format",
+                    "string.gmatch",
+                    "string.gsub",
+                    "string.len",
+                    "string.lower",
+                    "string.match",
+                    "string.rep",
+                    "string.sub",
+                    "string.upper",
+                    "string.reverse",
+                    "string.ends",
+                    "string.starts",
+
+                    "table",
+                    "table.concat",
+                    "table.insert",
+                    "table.maxn",
+                    "table.remove",
+                    "table.sort",
+                    "table.copy",
+                    "table.indexOf",
+
+                    "math",
+                    "math.abs",
+                    "math.acos",
+                    "math.asin",
+                    "math.atan",
+                    "math.atan2",
+                    "math.ceil",
+                    "math.cos",
+                    "math.cosh",
+                    "math.deg",
+                    "math.exp",
+                    "math.floor",
+                    "math.fmod",
+                    "math.frexp",
+                    "math.huge",
+                    "math.ldexp",
+                    "math.log",
+                    "math.log10",
+                    "math.max",
+                    "math.min",
+                    "math.modf",
+                    "math.pi",
+                    "math.pow",
+                    "math.rad",
+                    "math.random",
+                    "math.randomseed",
+                    "math.sin",
+                    "math.sinh",
+                    "math.sqrt",
+                    "math.tan",
+                    "math.tanh",
+                    "math.round",
+                    "math.inf",
+
+                    "io",
+                    "io.close",
+                    "io.flush",
+                    "io.input",
+                    "io.lines",
+                    "io.open",
+                    "io.popen",
+                    "io.output",
+                    "io.read",
+                    "io.tmpfile",
+                    "io.type",
+                    "io.write",
+
+                    "file",
+                    "file:close",
+                    "file:flush",
+                    "file:lines",
+                    "file:read",
+                    "file:seek",
+                    "file:setvbuf",
+                    "file:write",
+
+                    "os",
+                    "os.clock",
+                    "os.date",
+                    "os.difftime",
+                    "os.execute",
+                    "os.exit",
+                    "os.getenv",
+                    "os.remove",
+                    "os.rename",
+                    "os.setlocale",
+                    "os.time",
+                    "os.tmpname",
+
+                    "audio",
+                    "audio.dispose",
+                    "audio.fade",
+                    "audio.fadeOut",
+                    "audio.findFreeChannel",
+                    "audio.freeChannels",
+                    "audio.getDuration",
+                    "audio.getMaxVolume",
+                    "audio.getMinVolume",
+                    "audio.getVolume",
+                    "audio.isChannelActive",
+                    "audio.isChannelPaused",
+                    "audio.isChannelPlaying",
+                    "audio.loadSound",
+                    "audio.loadStream",
+                    "audio.pause",
+                    "audio.play",
+                    "audio.reserveChannels",
+                    "audio.reservedChannels",
+                    "audio.resume",
+                    "audio.rewind",
+                    "audio.seek",
+                    "audio.setMaxVolume",
+                    "audio.setMinVolume",
+                    "audio.setVolume",
+                    "audio.stop",
+                    "audio.stopWithDelay",
+                    "audio.totalChannels",
+                    "audio.unreservedFreeChannels",
+                    "audio.unreservedUsedChannels",
+                    "audio.usedChannels",
+
+                    "crypto",
+                    "crypto.digest",
+                    "crypto.hmac",
+
+                    "display",
+                    "display.capture",
+                    "display.captureBounds",
+                    "display.captureScreen",
+                    "display.colorSample",
+                    "display.getDefault",
+                    "display.getCurrentStage",
+                    "display.loadRemoteImage",
+                    "display.newCircle",
+                    "display.newContainer",
+                    "display.newEmbossedText",
+                    "display.newGroup",
+                    "display.newImage",
+                    "display.newImageGroup",
+                    "display.newImageRect",
+                    "display.newLine",
+                    "display.newMesh",
+                    "display.newPolygon",
+                    "display.newRect",
+                    "display.newRoundedRect",
+                    "display.newSnapshot",
+                    "display.newSprite",
+                    "display.newText",
+                    "display.remove",
+                    "display.save",
+                    "display.setDefault",
+                    "display.setDrawMode",
+                    "display.setStatusBar",
+                    "display.newEmitter",
+                    "display.getSafeAreaInsets",
+
+                    "graphics",
+                    "graphics.newGradient",
+                    "graphics.newImageSheet",
+                    "graphics.newMask",
+                    "graphics.defineEffect",
+                    "graphics.newOutline",
+                    "graphics.newOutline",
+                    "graphics.newTexture",
+                    "graphics.releaseTextures",
+                    "graphics.getFontMetrics",
+
+                    "json",
+                    "json.decode",
+                    "json.encode",
+                    "json.decodeFile",
+                    "json.prettify",
+                    
+                    "licensing.init",
+                    "licensing.verify",
+
+                    "media",
+                    "media.getSoundVolume",
+                    "media.hasSource",
+                    "media.newEventSound",
+                    "media.newRecording",
+                    "media.pauseSound",
+                    "media.playEventSound",
+                    "media.playSound",
+                    "media.playVideo",
+                    "media.save",
+                    "media.setSoundVolume",
+                    "media.show",
+                    "media.stopSound",
+                    "media.capturePhoto",
+                    "media.captureVideo",
+                    "media.selectPhoto",
+                    "media.selectVideo",
+
+                    "native",
+                    "native.canShowPopup",
+                    "native.cancelAlert",
+                    "native.cancelWebPopup",
+                    "native.getFontNames",
+                    "native.getProperty",
+                    "native.getSync",
+                    "native.newFont",
+                    "native.newMapView",
+                    "native.newTextBox",
+                    "native.newTextField",
+                    "native.newVideo",
+                    "native.newWebView",
+                    "native.requestExit",
+                    "native.setActivityIndicator",
+                    "native.setKeyboardFocus",
+                    "native.setProperty",
+                    "native.setSync",
+                    "native.showAlert",
+                    "native.showPopup",
+                    "native.showWebPopup",
+
+                    "network",
+                    "network.cancel",
+                    "network.download",
+                    "network.request",
+                    "network.setStatusListener",
+                    "network.upload",
+
+                    "physics",
+                    "physics.addBody",
+                    "physics.fromMKS",
+                    "physics.getAverageCollisionPositions",
+                    "physics.getDebugErrorsEnabled",
+                    "physics.getGravity",
+                    "physics.getMKS",
+                    "physics.getReportCollisionsInContentCoordinates",
+                    "physics.newJoint",
+                    "physics.pause",
+                    "physics.queryRegion",
+                    "physics.rayCast",
+                    "physics.reflectRay",
+                    "physics.removeBody",
+                    "physics.setAverageCollisionPositions",
+                    "physics.setContinuous",
+                    "physics.setDebugErrorsEnabled",
+                    "physics.setDrawMode",
+                    "physics.setGravity",
+                    "physics.setMKS",
+                    "physics.setPositionIterations",
+                    "physics.setReportCollisionsInContentCoordinates",
+                    "physics.setScale",
+                    "physics.setTimeStep",
+                    "physics.setVelocityIterations",
+                    "physics.start",
+                    "physics.stop",
+                    "physics.toMKS",
+                    "physics.newParticleSystem",
+                    "physics.getTimeScale",
+                    "physics.setTimeScale",
+
+                    "store",
+                    "store.finishTransaction",
+                    "store.init",
+                    "store.loadProducts",
+                    "store.purchase",
+                    "store.restore",
+                    "store.availableStores",
+                    "store.canLoadProducts",
+                    "store.canMakePurchases",
+                    "store.isActive",
+                    "store.target",
+
+                    "system",
+                    "system.activate",
+                    "system.canOpenURL",
+                    "system.deletePreferences",
+                    "system.cancelNotification",
+                    "system.deactivate",
+                    "system.getIdleTimer",
+                    "system.getInfo",
+                    "system.getInputDevices",
+                    "system.getPreference",
+                    "system.getTimer",
+                    "system.hasEventSource",
+                    "system.openURL",
+                    "system.pathForFile",
+                    "system.scheduleNotification",
+                    "system.setAccelerometerInterval",
+                    "system.setGyroscopeInterval",
+                    "system.setIdleTimer",
+                    "system.setLocationAccuracy",
+                    "system.setLocationThreshold",
+                    "system.setTapDelay",
+                    "system.vibrate",
+                    "system.newEventDispatcher",
+                    "system.setPreferences",
+
+                    "timer",
+                    "timer.cancel",
+                    "timer.pause",
+                    "timer.performWithDelay",
+                    "timer.resume",
+
+                    "transition",
+                    "transition.blink",
+                    "transition.cancel",
+                    "transition.fadeIn",
+                    "transition.fadeOut",
+                    "transition.from",
+                    "transition.moveBy",
+                    "transition.moveTo",
+                    "transition.pause",
+                    "transition.resume",
+                    "transition.scaleBy",
+                    "transition.scaleTo",
+                    "transition.to",
+                    "transition.dissolve",
+
+                    "widget",
+                    "widget.newButton",
+                    "widget.newPickerWheel",
+                    "widget.newProgressView",
+                    "widget.newScrollView",
+                    "widget.newSegmentedControl",
+                    "widget.newSlider",
+                    "widget.newSpinner",
+                    "widget.newStepper",
+                    "widget.newSwitch",
+                    "widget.newTabBar",
+                    "widget.newTableView",
+                    "widget.setTheme",
+
+                    "composer",
+                    "composer.getScene",
+                    "composer.getSceneName",
+                    "composer.getVariable",
+                    "composer.gotoScene",
+                    "composer.hideOverlay",
+                    "composer.isDebug",
+                    "composer.loadScene",
+                    "composer.newScene",
+                    "composer.recycleAutomatically",
+                    "composer.recycleOnLowMemory",
+                    "composer.recycleOnSceneChange",
+                    "composer.removeHidden",
+                    "composer.removeScene",
+                    "composer.setVariable",
+                    "composer.showOverlay",
+                    "composer.stage",
+                    
+                    "Runtime",
+                    "Runtime:hasEventSource",
+                    "Runtime:addEventListener",
+                    "Runtime:hideErrorAlerts"
+                );
+
+            Type = "xcode.syntax.identifier.function.system";
+            AltType = "xcode.syntax.identifier";    // non-keywords are identifiers
+          };
+    },
+
+    {
+        Identifier = "xcode.lang.corona.library";
+        Syntax = {
+            StartChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_[";
+            Chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_?[]";
+               Words = (
+
+                    "_G",
+                    "_VERSION",
+                
+                    "and",
+                    "break",
+                    "do",
+                    "else",
+                    "elseif",
+                    "end",
+                    "false",
+                    "for",
+                    "function",
+                    "if",
+                    "in",
+                    "local",
+                    "nil",
+                    "not",
+                    "or",
+                    "repeat",
+                    "return",
+                    "then",
+                    "true",
+                    "until",
+                    "while",
+                     
+               );
+
+               Type = "xcode.syntax.keyword";
+          };
+    },
+
+    {
+        Identifier = "xcode.lang.corona.constants";
+        Syntax = {
+            StartChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_[";
+            Chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_?[]";
+               Words = (
+
+                    "native.systemFontBold", "native.systemFont",
+                    "system.orientation",
+                    "system.CachesDirectory", "system.DocumentsDirectory", "system.ResourceDirectory", "system.TemporaryDirectory", "system.ApplicationSupportDirectory",
+                    "crypto.md4", "crypto.md5", "crypto.sha1", "crypto.sha224", "crypto.sha256", "crypto.sha384", "crypto.sha512",
+
+                    "easing.continuousLoop",
+                    "easing.inSine", "easing.outSine", "easing.inOutSine", "easing.outInSine",
+                    "easing.inQuad", "easing.outQuad", "easing.inOutQuad", "easing.outInQuad",
+                    "easing.inCubic", "easing.outCubic", "easing.inOutCubic", "easing.outInCubic",
+                    "easing.inQuart", "easing.outQuart", "easing.inOutQuart", "easing.outInQuart",
+                    "easing.inQuint", "easing.outQuint", "easing.inOutQuint", "easing.outInQuint",
+                    "easing.inExpo", "easing.outExpo", "easing.inOutExpo", "easing.outInExpo",
+                    "easing.inCirc", "easing.outCirc", "easing.inOutCirc", "easing.outInCirc",
+                    "easing.inBack", "easing.outBack", "easing.inOutBack", "easing.outInBack",
+                    "easing.inBounce", "easing.outBounce", "easing.inOutBounce", "easing.outInBounce",
+
+                    "display.actualContentHeight", "display.actualContentWidth", "display.screenOriginX",
+                    "display.screenOriginY", "display.contentCenterX", "display.contentCenterY", "display.contentHeight",
+                    "display.contentScaleX", "display.contentScaleY", "display.contentWidth", "display.currentStage",
+                    "display.fps", "display.imageSuffix", "display.pixelHeight", "display.pixelWidth", "display.statusBarHeight",
+                    "display.topStatusBarContentHeight", "display.viewableContentHeight", "display.viewableContentWidth",
+                    "display.safeScreenOriginX", "display.safeScreenOriginY", "display.safeActualContentWidth", "display.safeActualContentHeight",
+
+                    "media.RemoteSource", "network.canDetectNetworkStatusChanges", "physics.engineVersion",
+                    "display.HiddenStatusBar", "display.DefaultStatusBar", "display.TranslucentStatusBar", "display.DarkStatusBar",
+					
+                    "timer.allowInterationsWithinFrame"
+               );
+
+               Type = "xcode.syntax.identifier.constant";
+          };
+    },
+
+    {
+        Identifier = "xcode.lang.corona.interestingOperators";
+        Syntax = {
+            Words = (
+                "..",
+                ".",
+                ":"
+             );
+            Type = "xcode.syntax.plain";
+        };
+    },
+    
+
+/****************************************************************************/
+// MARK: Solar2D Syntax Coloring
+/****************************************************************************/
+
+    {
+        Identifier = "xcode.lang.corona";
+        Description = "Solar2D Coloring";
+        BasedOn = "xcode.lang.simpleColoring";
+        IncludeInMenu = YES;
+        //UsesCLikeIndentation = YES;
+        Name = "Solar2D Lua";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer.toplevel";
+            IncludeRules = (
+                "xcode.lang.corona.module",
+                "xcode.lang.corona.class",
+                "xcode.lang.corona.function",
+                "xcode.lang.corona.block",
+                "xcode.lang.corona.block.if",
+                "xcode.lang.corona.block.while",
+                "xcode.lang.corona.block.repeat",
+                "xcode.lang.corona.block.for",
+                "xcode.lang.corona.bracketexpr",
+                "xcode.lang.corona.parenexpr",
+            );
+            Type = "xcode.syntax.plain";
+
+        };
+    },
+    
+    // The following rule returns tokens to the other rules
+    {
+        Identifier = "xcode.lang.corona.lexer";
+        Syntax = {
+            IncludeRules = (
+                "xcode.lang.corona.comment",
+                "xcode.lang.corona.comment.singleline",
+                "xcode.lang.string",
+                "xcode.lang.string.corona0",
+                "xcode.lang.string.corona1",
+                "xcode.lang.string.corona2",
+                "xcode.lang.string.corona3",
+                "xcode.lang.string.corona4",
+                "xcode.lang.string.corona5",
+                "xcode.lang.corona.interestingOperators",
+                "xcode.lang.corona.library",
+                "xcode.lang.corona.constants",
+                "xcode.lang.character",
+                "xcode.lang.corona.identifier",
+                "xcode.lang.number",
+            );
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.lexer.toplevel";
+        Syntax = {
+            IncludeRules = (
+                "xcode.lang.corona.comment",
+                "xcode.lang.corona.comment.singleline",
+                "xcode.lang.string",
+                "xcode.lang.string.corona0",
+                "xcode.lang.string.corona1",
+                "xcode.lang.string.corona2",
+                "xcode.lang.string.corona3",
+                "xcode.lang.string.corona4",
+                "xcode.lang.string.corona5",
+                "xcode.lang.corona.library",
+                "xcode.lang.corona.constants",
+                "xcode.lang.character",
+                "xcode.lang.corona.local.declarator",
+                "xcode.lang.corona.module.declarator",
+                "xcode.lang.corona.class.declarator",
+                "xcode.lang.corona.function.declarator",
+                "xcode.lang.corona.identifier",
+                "xcode.lang.number",
+              
+            );
+        };
+    },
+ 
+    {
+        Identifier = "xcode.lang.string.corona0";
+        Syntax = {
+            Start = "[[";
+            End = "]]";
+            Type = "xcode.syntax.string";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.string.corona1";
+        Syntax = {
+            Start = "[=[";
+            End = "]=]";
+            Type = "xcode.syntax.string";
+        };
+    },
+  
+    {
+        Identifier = "xcode.lang.string.corona2";
+        Syntax = {
+            Start = "[==[";
+            End = "]==]";
+            Type = "xcode.syntax.string";
+        };
+    },
+  
+    {
+        Identifier = "xcode.lang.string.corona3";
+        Syntax = {
+            Start = "[===[";
+            End = "]===]";
+            Type = "xcode.syntax.string";
+        };
+    },
+  
+    {
+        Identifier = "xcode.lang.string.corona4";
+        Syntax = {
+            Start = "[====[";
+            End = "]====]";
+            Type = "xcode.syntax.string";
+        };
+    },
+  
+    {
+        Identifier = "xcode.lang.string.corona5";
+        Syntax = {
+            Start = "[=====[";
+            End = "]=====]";
+            Type = "xcode.syntax.string";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.corona.module";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer.toplevel";
+            Start = "xcode.lang.corona.module.declarator";
+            End = "end";
+            Foldable = YES;
+            Recursive = YES;
+            IncludeRules = (
+                "xcode.lang.corona.class",
+                "xcode.lang.corona.function",
+            );
+            Type = "xcode.syntax.definition.class";
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.module.declarator";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Rules = (
+                "require",
+                "xcode.lang.corona.identifier",
+
+            );
+            Type = "xcode.syntax.name.partial";
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.local.declarator";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Rules = (
+                "local",
+                "xcode.lang.corona.identifier",
+            );
+            //Type = "xcode.syntax.name.partial";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.corona.class";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer.toplevel";
+            Start = "xcode.lang.corona.class.declarator";
+            End = "end";
+            Foldable = YES;
+            Recursive = YES;
+            IncludeRules = (
+                "xcode.lang.corona.function",
+            );
+            Type = "xcode.syntax.definition.class";
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.class.declarator";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Rules = (
+                "class",
+                "xcode.lang.corona.identifier",
+                "xcode.lang.corona.superclass?",
+            );
+            Type = "xcode.syntax.name.partial";
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.function";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer.toplevel";
+            Start = "xcode.lang.corona.function.declarator";
+            End = "end";
+            Foldable = YES;
+            Recursive = YES;
+            IncludeRules = (
+                "xcode.lang.corona.block",
+                "xcode.lang.corona.block.if",
+                "xcode.lang.corona.block.while",
+                "xcode.lang.corona.block.repeat",
+                "xcode.lang.corona.block.for",
+                "xcode.lang.corona.bracketexpr",
+                "xcode.lang.corona.parenexpr",
+            );
+            Type = "xcode.syntax.definition.function";
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.function.declarator";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Rules = (
+                "function",
+                "xcode.lang.corona.function.name",
+            );
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.function.name";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Rules = (
+                "xcode.lang.corona.identifier",
+                "xcode.lang.corona.function.name.more?",
+            );
+            Type = "xcode.syntax.name.partial";
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.function.name.more";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Rules = (
+                ".",
+                    ":",
+                "xcode.lang.corona.identifier",
+            );
+            Type = "xcode.syntax.name.partial";
+        };
+    },
+
+   
+
+/****************************************************************************/
+// MARK: Lua blocks
+/****************************************************************************/
+ {
+        Identifier = "xcode.lang.corona.block";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Start = "{";
+            End = "}";
+            Foldable = YES;
+            Recursive = YES;
+            IncludeRules = (
+                "xcode.lang.corona.block.if",
+                "xcode.lang.corona.block.while",
+                "xcode.lang.corona.block.repeat",
+                "xcode.lang.corona.block.for",
+                "xcode.lang.corona.block.do",
+                "xcode.lang.corona.bracketexpr",
+                "xcode.lang.corona.parenexpr",
+            );
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.block.if";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Start = "if";
+            End = "end";
+            Foldable = YES;
+            Recursive = YES;
+            StartAtBOL = YES;
+            IncludeRules = (
+                "xcode.lang.corona.block",
+                "xcode.lang.corona.block.while",
+                "xcode.lang.corona.block.repeat",
+                "xcode.lang.corona.block.for",
+                "xcode.lang.corona.block.do",
+                "xcode.lang.corona.bracketexpr",
+                "xcode.lang.corona.parenexpr",
+            );
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.corona.block.while";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Start = "while";
+            End = "end";
+            Foldable = YES;
+            Recursive = YES;
+            StartAtBOL = YES;
+            IncludeRules = (
+                "xcode.lang.corona.block",
+                "xcode.lang.corona.block.if",
+                "xcode.lang.corona.block.repeat",
+                "xcode.lang.corona.block.for",
+                "xcode.lang.corona.block.do",
+                "xcode.lang.corona.bracketexpr",
+                "xcode.lang.corona.parenexpr",
+            );
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.block.repeat";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Start = "repeat";
+            End = "until";
+            Foldable = YES;
+            Recursive = YES;
+            StartAtBOL = YES;
+            IncludeRules = (
+                "xcode.lang.corona.block",
+                "xcode.lang.corona.block.if",
+                "xcode.lang.corona.block.while",
+                "xcode.lang.corona.block.for",
+                "xcode.lang.corona.block.do",
+                "xcode.lang.corona.bracketexpr",
+                "xcode.lang.corona.parenexpr",
+            );
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.block.for";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Start = "for";
+            End = "end";
+            Foldable = YES;
+            Recursive = YES;
+            StartAtBOL = YES;
+            IncludeRules = (
+                "xcode.lang.corona.block",
+                "xcode.lang.corona.block.if",
+                "xcode.lang.corona.block.while",
+                "xcode.lang.corona.block.repeat",
+                "xcode.lang.corona.bracketexpr",
+                "xcode.lang.corona.parenexpr",
+            );
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.corona.parenexpr";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Start = "(";
+            End = ")";
+            Recursive = YES;
+            IncludeRules = (
+                "xcode.lang.corona.bracketexpr",
+            );
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.bracketexpr";
+        Syntax = {
+            Tokenizer = "xcode.lang.corona.lexer";
+            Start = "[";
+            End = "]";
+            Recursive = YES;
+            IncludeRules = (
+                "xcode.lang.corona.parenexpr",
+            );
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.comment";
+        Syntax = {
+            Start = "--[[";
+            End = "]]";
+            Foldable = YES;
+            IncludeRules = ( 
+                "xcode.lang.url", 
+                "xcode.lang.url.mail", 
+                "xcode.lang.comment.mark"
+            );
+            Type = "xcode.syntax.comment";
+        };
+    },
+    
+    {
+        Identifier = "xcode.lang.corona.comment.singleline";
+        Syntax = {
+            Start = "--";
+            End = "\n";
+            IncludeRules = ( 
+                "xcode.lang.url", 
+                "xcode.lang.url.mail", 
+                "xcode.lang.comment.mark"
+            );
+            Type = "xcode.syntax.comment";
+        };
+    },
+
+)
+

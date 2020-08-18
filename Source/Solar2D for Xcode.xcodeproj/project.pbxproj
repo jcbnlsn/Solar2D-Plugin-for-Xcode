@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D8018D01CC6B78200696BE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8018CF1CC6B78200696BE9 /* AppDelegate.swift */; };
+		4D8018D21CC6B78200696BE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8018D11CC6B78200696BE9 /* Assets.xcassets */; };
+		4D8018D51CC6B78200696BE9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8018D31CC6B78200696BE9 /* MainMenu.xib */; };
+		4D8018E41CC6BAE400696BE9 /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4D8018DD1CC6BAE400696BE9 /* install.sh */; };
+		4D8018E51CC6BAE400696BE9 /* InstallScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8018DE1CC6BAE400696BE9 /* InstallScript.swift */; };
+		4D8018E61CC6BAE400696BE9 /* PluginData in Resources */ = {isa = PBXBuildFile; fileRef = 4D8018DF1CC6BAE400696BE9 /* PluginData */; };
+		4D8018E71CC6BAE400696BE9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8018E01CC6BAE400696BE9 /* RootViewController.swift */; };
+		4D8018E81CC6BAE400696BE9 /* uninstall.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4D8018E11CC6BAE400696BE9 /* uninstall.sh */; };
+		4D8018E91CC6BAE400696BE9 /* UninstallScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8018E21CC6BAE400696BE9 /* UninstallScript.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		160D117C24CB98C100FF4C87 /* Solar2D for Xcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Solar2D for Xcode.entitlements"; sourceTree = "<group>"; };
+		4D8018CC1CC6B78200696BE9 /* Solar2D for Xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar2D for Xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8018CF1CC6B78200696BE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D8018D11CC6B78200696BE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D8018D41CC6B78200696BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4D8018D61CC6B78200696BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8018DD1CC6BAE400696BE9 /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.csh; };
+		4D8018DE1CC6BAE400696BE9 /* InstallScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallScript.swift; sourceTree = "<group>"; };
+		4D8018DF1CC6BAE400696BE9 /* PluginData */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PluginData; path = "Solar2D for Xcode/PluginData"; sourceTree = "<group>"; };
+		4D8018E01CC6BAE400696BE9 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		4D8018E11CC6BAE400696BE9 /* uninstall.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = uninstall.sh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.csh; };
+		4D8018E21CC6BAE400696BE9 /* UninstallScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UninstallScript.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D8018C91CC6B78200696BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D8018C31CC6B78200696BE9 = {
+			isa = PBXGroup;
+			children = (
+				160D117C24CB98C100FF4C87 /* Solar2D for Xcode.entitlements */,
+				4D8018CE1CC6B78200696BE9 /* Solar2D for Xcode */,
+				4D8018DF1CC6BAE400696BE9 /* PluginData */,
+				4D8018CD1CC6B78200696BE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D8018CD1CC6B78200696BE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D8018CC1CC6B78200696BE9 /* Solar2D for Xcode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D8018CE1CC6B78200696BE9 /* Solar2D for Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				4D8018E01CC6BAE400696BE9 /* RootViewController.swift */,
+				4D8018CF1CC6B78200696BE9 /* AppDelegate.swift */,
+				4D8018DE1CC6BAE400696BE9 /* InstallScript.swift */,
+				4D8018E21CC6BAE400696BE9 /* UninstallScript.swift */,
+				4D8018DD1CC6BAE400696BE9 /* install.sh */,
+				4D8018E11CC6BAE400696BE9 /* uninstall.sh */,
+				4D8018D11CC6B78200696BE9 /* Assets.xcassets */,
+				4D8018D31CC6B78200696BE9 /* MainMenu.xib */,
+				4D8018D61CC6B78200696BE9 /* Info.plist */,
+			);
+			path = "Solar2D for Xcode";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D8018CB1CC6B78200696BE9 /* Solar2D for Xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8018D91CC6B78200696BE9 /* Build configuration list for PBXNativeTarget "Solar2D for Xcode" */;
+			buildPhases = (
+				4D8018C81CC6B78200696BE9 /* Sources */,
+				4D8018C91CC6B78200696BE9 /* Frameworks */,
+				4D8018CA1CC6B78200696BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar2D for Xcode";
+			productName = "Corona for Xcode";
+			productReference = 4D8018CC1CC6B78200696BE9 /* Solar2D for Xcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D8018C41CC6B78200696BE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Jacob Nielsen";
+				TargetAttributes = {
+					4D8018CB1CC6B78200696BE9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C2LD5CC72D;
+						LastSwiftMigration = 1100;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4D8018C71CC6B78200696BE9 /* Build configuration list for PBXProject "Solar2D for Xcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D8018C31CC6B78200696BE9;
+			productRefGroup = 4D8018CD1CC6B78200696BE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D8018CB1CC6B78200696BE9 /* Solar2D for Xcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D8018CA1CC6B78200696BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8018D21CC6B78200696BE9 /* Assets.xcassets in Resources */,
+				4D8018D51CC6B78200696BE9 /* MainMenu.xib in Resources */,
+				4D8018E41CC6BAE400696BE9 /* install.sh in Resources */,
+				4D8018E81CC6BAE400696BE9 /* uninstall.sh in Resources */,
+				4D8018E61CC6BAE400696BE9 /* PluginData in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D8018C81CC6B78200696BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8018E51CC6BAE400696BE9 /* InstallScript.swift in Sources */,
+				4D8018D01CC6B78200696BE9 /* AppDelegate.swift in Sources */,
+				4D8018E71CC6BAE400696BE9 /* RootViewController.swift in Sources */,
+				4D8018E91CC6BAE400696BE9 /* UninstallScript.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D8018D31CC6B78200696BE9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D8018D41CC6B78200696BE9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D8018D71CC6B78200696BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D8018D81CC6B78200696BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4D8018DA1CC6B78200696BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Solar2D for Xcode.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C2LD5CC72D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Solar2D for Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakebrowser.cfx;
+				PRODUCT_NAME = "Solar2D for Xcode";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4D8018DB1CC6B78200696BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Solar2D for Xcode.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C2LD5CC72D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Solar2D for Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakebrowser.cfx;
+				PRODUCT_NAME = "Solar2D for Xcode";
+				PROVISIONING_PROFILE_SPECIFIER = "Corona Plugin for Xcode";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D8018C71CC6B78200696BE9 /* Build configuration list for PBXProject "Solar2D for Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8018D71CC6B78200696BE9 /* Debug */,
+				4D8018D81CC6B78200696BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8018D91CC6B78200696BE9 /* Build configuration list for PBXNativeTarget "Solar2D for Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8018DA1CC6B78200696BE9 /* Debug */,
+				4D8018DB1CC6B78200696BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D8018C41CC6B78200696BE9 /* Project object */;
+}
