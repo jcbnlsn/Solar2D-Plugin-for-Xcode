@@ -1,5 +1,6 @@
-<br>
+
 # ![Image](http://www.shakebrowser.net/solar2d/smalllogo.png) Solar2D Plugin for Xcode #
+
 This plugin adds a set of new features to Xcode turning it into an easy to use, smooth and efficient editor for pure Lua-based Solar2D projects. ( [Solar2D](http://www.solar2d.com) is a software development platform previously known as [Corona SDK](http://www.coronalabs.com) ).
 
 The plugin is also a great addition if you are working with Solar2D Native. In this case you will achieve an excellent workflow by being able to do both Solar2D/Lua code and native code side by side in Xcode. 
