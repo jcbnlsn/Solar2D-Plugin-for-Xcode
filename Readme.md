@@ -8,7 +8,7 @@ The plugin is also a great addition if you are working with Solar2D Native. In t
 ---
 Read more about the features of [Solar2D Plugin for Xcode](http://www.shakebrowser.net/solar2d/) 
 
-Direct download of the dmg installer is here: [Solar2D Plugin for Xcode](http://www.shakebrowser.net/solar2d/)
+Direct download of the dmg installer is here: [Solar2D Plugin for Xcode](https://github.com/jcbnlsn/Solar2D-Plugin-for-Xcode/raw/master/Solar2D%20for%20Xcode%20v.2.2.dmg)
 
 Source code is in this repository. Feel free to contribute.
 
@@ -17,5 +17,5 @@ Source code is in this repository. Feel free to contribute.
 
 If you like **Solar2D** please support Vlad's development on [**Github**](https://github.com/sponsors/shchvova) or [**Patreon**](https://www.patreon.com/shchvova)
 
-This plugin was previously a paid plugin known as 'Corona Plugin for Xcode' but following the open source transition from CoronaSDK to Solar2D I decided to make it free and open source too.
+This plugin was previously a paid plugin known as 'Corona Plugin for Xcode' but following the open source transition from CoronaSDK to Solar2D I decided to make it free and open too.
 
