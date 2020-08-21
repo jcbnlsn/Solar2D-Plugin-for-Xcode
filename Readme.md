@@ -8,7 +8,7 @@ The plugin is also a great addition if you are working with Solar2D Native. In t
 ---
 Read more about the features of [Solar2D Plugin for Xcode](http://www.shakebrowser.net/solar2d/) 
 
-Direct download of the dmg installer is here: [Solar2D Plugin for Xcode](https://github.com/jcbnlsn/Solar2D-Plugin-for-Xcode/raw/master/Solar2D%20for%20Xcode%20v.2.2.dmg)
+Direct download of the dmg installer is here: [download installer v.2.3](https://github.com/jcbnlsn/Solar2D-Plugin-for-Xcode/raw/master/Solar2D%20for%20Xcode%20v.2.3.dmg)
 
 Source code is in this repository. Feel free to contribute.
 
