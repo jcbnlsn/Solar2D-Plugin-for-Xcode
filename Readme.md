@@ -19,3 +19,5 @@ If you like **Solar2D** please support Vlad's development on [**Github**](https:
 
 This plugin was previously a paid plugin known as 'Corona Plugin for Xcode' but following the open source transition from CoronaSDK to Solar2D I decided to make it free and open too.
 
+Please give it a star to let me know someone is using it and motivate me maintaining it.
+
