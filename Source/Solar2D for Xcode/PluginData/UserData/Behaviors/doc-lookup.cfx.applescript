@@ -37,7 +37,7 @@ if scriptingEnabled then
         
 		delay 0.3
 		tell process "Xcode"
-			click menu item "Copy" of menu 1 of menu bar item "Edit" of menu bar 1
+			click menu item "Copy" of menu 1 of menu item "Copy" of menu 1 of menu bar item "Edit" of menu bar 1
 		end tell
 		
 		delay 0.1
