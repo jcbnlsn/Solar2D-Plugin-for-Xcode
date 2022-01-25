@@ -16,6 +16,7 @@ if scriptingEnabled then
 	if devices contains "device" then
 		tell application "Terminal"
 	    	do script "'/Applications/Solar2D/Corona Simulator.app/Contents/Resources/device-support/adb' logcat -v raw Corona:D ActivityManager:W AndroidRuntime:E '*:S'"
+                activate
 		end tell
 	else
 		display dialog "Android device not found.\nConnect a device to the computer with usb." with title "Error" with icon caution buttons {"OK"}
